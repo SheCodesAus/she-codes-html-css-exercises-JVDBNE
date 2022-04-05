@@ -1,0 +1,31 @@
+    body {
+        background-color: lavenderblush;        
+    }
+
+    div {
+        background-color: peachpuff;   
+    }
+
+    #div-one {
+        background-color: burlywood;   
+    }
+
+    .list-item {
+        background-color: darkturquoise;    
+    }
+
+    .main-heading {
+        background-color: pink;   
+    }
+
+    #first-paragraph {
+        background-color: yellow;   
+    }
+
+    .nav-item {
+        background-color: hotpink;
+    }
+
+    #gold-nav {
+        background-color: gold;   
+    }

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 html {
     font-family: 'Raleway', sans-serif;
@@ -12,25 +13,32 @@ body {
 header {
     text-align: center;
     background-color: #6b469a;
-    padding: 10px;
+    padding: 20px;
+    margin: 20px;
+    border: 5px dotted black;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     line-height: 2.5rem;;
-    color: #fff;
+    color: hotpink;
 }
 
 h2 {
     font-size: 3rem;
     line-height: 3rem;
-    color: #fff;
+    color: pink;
 }
 
 nav {
     margin: 10px;
     padding: 10px;
-    background-color: #999999;
+    background-color: #dda0dd;
+    width: 400px;
+    
+    
 }
 
 a {
@@ -44,6 +52,9 @@ a:hover {
     border-bottom: 2px solid #fda103;
 }
 
+nav a {
+    display: inline;
+}
 
 div {
     padding: 10px;
@@ -63,4 +74,9 @@ footer {
     color: #fff;
 }
 
-/* Your code here */
+#pic-1 {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border: 5px dashed orange
+}
